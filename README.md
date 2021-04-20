@@ -43,7 +43,7 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 
 | Model | Loss Function | Optimizer | Epoch | Totla Loss | Dataset | Result | 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0012 | Pet Data | [Result_01](#Result_01) |
+| U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0269 | Pet Data | [Result_01](#Result_01) |
 | FCN |
 
 <br>
