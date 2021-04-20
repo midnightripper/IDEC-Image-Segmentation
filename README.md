@@ -17,7 +17,9 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 (http://download.tensorflow.org/data/ChestXRay2017/train/images.tfrec)
 (http://download.tensorflow.org/data/ChestXRay2017/train/paths.tfrec)
 
-#### Sample Train Raw Data (each different size)
+<br>
+
+### Sample Train Raw Data (each different size)
 <p align="center">
   <br>Siamese_203
   <img src="imgs/01-SampleTrainData_01.png">
@@ -26,7 +28,9 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
   <img src="imgs/01-SampleTrainData_02.png">
 </p>
 
-#### Sample Train Scaling Data (160 x 160 px)
+<br>
+
+### Sample Train Scaling Data (160 x 160 px)
 <p align="center">
   <br>Siamese_203
   <img src="imgs/01-SampleTrainData_Scale_01.png">
@@ -36,6 +40,18 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 </p>
 
 ## Application
+
+| Model | Loss Function | Optimizer | Epoch | Totla Loss | Dataset | Result | 
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0012 | Pet Data | [Result_01](#Result_01) |
+| FCN |
+
+<br>
+
+#### Result_01
+<p>
+  <img src="imgs/02-Predict_01.png">
+</p>
 
 ## Reference
 https://keras.io/examples/vision/
