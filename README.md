@@ -7,19 +7,35 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 
 ## DataSet
 
-- Pet Data - 1190 Images (Ragdoll, saint_bernard, scottish_terrier, Siamese, staffordshire_bull_terrier, yorkshire_terrier)
-- Pneumonia Data - 1200 Images (Normal, Pneumonia)
+- Pet Data - 1190 Images (Ragdoll, saint_bernard, scottish_terrier, Siamese, staffordshire_bull_terrier, yorkshire_terrier)<br>
+**[University of OXFORD : Open Dataset]**<br>
+(https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz)
+(https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz)
 
-#### Sample Train Raw Data
+- Pneumonia Data - 1200 Images (Normal, Pneumonia)<br>
+**[[Identifying Medical Diagnoses and Treatable Diseases by Image-Based : Open Dataset]](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)**
+(http://download.tensorflow.org/data/ChestXRay2017/train/images.tfrec)
+(http://download.tensorflow.org/data/ChestXRay2017/train/paths.tfrec)
+
+#### Sample Train Raw Data (each different size)
 <p align="center">
+  <br>Siamese_203
   <img src="imgs/01-SampleTrainData_01.png">
+<br>
+  <br>yorkshire_terrier_67
   <img src="imgs/01-SampleTrainData_02.png">
 </p>
 
-#### Sample Train Scaling Data
+#### Sample Train Scaling Data (160 x 160 px)
 <p align="center">
+  <br>Siamese_203
   <img src="imgs/01-SampleTrainData_Scale_01.png">
+<br>
+  <br>yorkshire_terrier_67
   <img src="imgs/01-SampleTrainData_Scale_02.png">
 </p>
 
 ## Application
+
+## Reference
+https://keras.io/examples/vision/
