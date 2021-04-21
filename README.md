@@ -51,6 +51,7 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0269 | Pet Data | [Result_01](#Result_01) |
 | U-Net | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0041 | Pet Data | [Result_02](#Result_02) |
+| U-Net<br>Leaky ReLU | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0048 | Pet Data | [Result_03](#Result_03) |
 | FCN |    |  |  |  | Pneumonia Data |  |
 
 <br>
@@ -63,6 +64,11 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 #### Result_02
 <p>
   <img src="imgs/03-Predict_01.png">
+</p>
+
+#### Result_03
+<p>
+  <img src="imgs/10-Predict_01.png">
 </p>
 
 ## Reference
