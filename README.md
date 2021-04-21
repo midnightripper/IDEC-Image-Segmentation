@@ -19,7 +19,7 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 
 <br>
 
-### Sample Train Raw Data (each different size)
+### Sample Pet Train Raw Data (each different size)
 <p align="center">
   <br>Siamese_203
   <img src="imgs/01-SampleTrainData_01.png">
@@ -30,7 +30,7 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 
 <br>
 
-### Sample Train Scaling Data (160 x 160 px)
+### Sample Pet Train Scaling Data (160 x 160 px)
 <p align="center">
   <br>Siamese_203
   <img src="imgs/01-SampleTrainData_Scale_01.png">
@@ -39,18 +39,30 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
   <img src="imgs/01-SampleTrainData_Scale_02.png">
 </p>
 
+### Sample Pneumonia Train Scaling Data (180 x 180 px)
+<p align="center">
+  <br>Pneumonia
+  <img src="imgs/04-SampleTrainData_Scale_01.png">
+<br>
+
 ## Application
 
 | Model | Loss Function | Optimizer | Epoch | Totla Loss | Dataset | Result | 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0269 | Pet Data | [Result_01](#Result_01) |
-| FCN |
+| U-Net | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0041 | Pet Data | [Result_02](#Result_02) |
+| FCN |    |  |  |  | Pneumonia Data |  |
 
 <br>
 
 #### Result_01
 <p>
   <img src="imgs/02-Predict_01.png">
+</p>
+
+#### Result_02
+<p>
+  <img src="imgs/03-Predict_01.png">
 </p>
 
 ## Reference
