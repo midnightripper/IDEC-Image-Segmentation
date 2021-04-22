@@ -47,12 +47,12 @@ Advanced Image Segmentation Lecture based on Deep Learning in **한국과학기�
 
 ## Application
 
-| Model | Loss Function | Optimizer | Epoch | Totla Loss | Dataset | Result | 
+| Model | Loss Function | Optimizer | Epoch | Total Loss | Dataset | Result | 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0269 | Pet Data | [Result_01](#Result_01) |
-| U-Net | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0041 | Pet Data | [Result_02](#Result_02) |
-| U-Net<br>Leaky ReLU | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0048 | Pet Data | [Result_03](#Result_03) |
-| FCN |    |  |  |  | Pneumonia Data |  |
+| U-Net | Sparse Categorical Crossentropy | RMSProp | 200 | 0.0269 | Pet Data | [Result_01](#Result_01)<br>**(Segmentation)** |
+| U-Net | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0041 | Pet Data | [Result_02](#Result_02)<br>**(Segmentation)** |
+| U-Net<br>Leaky ReLU | Sparse Categorical Crossentropy | RMSProp | 1000 | 0.0048 | Pet Data | [Result_03](#Result_03)<br>**(Segmentation)** |
+| FCN | Binary Crossentropy | Adam | 200 | | Pneumonia Data | [Result_03](#Result_03)<br>**(Classification)** |
 
 <br>
 
